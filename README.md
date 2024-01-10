@@ -1,4 +1,4 @@
-This Repository contains some files for casework 
+This Repository contains some files for casework: 
 1. index.html
    contain the button and container for the list of posts
 
