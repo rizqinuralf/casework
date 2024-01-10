@@ -26,7 +26,7 @@ function fetchPosts() {
 
 // Function to update the list of posts in the DOM
 function updatePostList(posts) {
-  const postList = document.getElementById('postList');
+  const postList = document.getElementById('postsList');
   // Clear existing list items
   postList.innerHTML = '';
 
@@ -34,11 +34,11 @@ function updatePostList(posts) {
   const orderedList = document.createElement('ol');
 
   // Iteration through posts and create list items
-  posts.forEach(post => {
+  posts.forEach(posts => {
     const listItem = document.createElement('li');
 
     // Set the text content of list item to the post title
-    listItem.textContent = post.title;
+    listItem.textContent = posts.title;
 
     // Append the list item to the postList
     orderedList.appendChild(listItem);
