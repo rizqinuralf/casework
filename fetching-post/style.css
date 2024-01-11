@@ -5,10 +5,6 @@ body {
     justify-content: center;
 }
 
-body div {
-    align-items: start;
-}
-
 #postList {
     text-align: center;
 }
